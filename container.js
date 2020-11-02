@@ -5,7 +5,7 @@ class container {
 		this.y=y;
 		this.dustbinWidth=200;
 		this.dustbinHeight=100;
-		this.wallThickness=20;
+		this.wallThickness=30;
 		this.angle=0;	
 		
 		this.bottomBody=Bodies.rectangle(this.x, this.y, this.dustbinWidth, this.wallThickness, {isStatic:true})
